@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: #0f2a52;
+  --navy-2: #1f4b8a;
+  --blue: #1a6fc4;
+  --saffron: #f39c34;
+  --orange-dark: #e67e22;
+  --green: #1e8449;
+  --red: #c0392b;
+  --amber: #d68910;
+  --bg: #eef2f7;
+  --card: #ffffff;
+  --card-border: #d6dfeb;
+  --muted: #5b6b82;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--navy);
+}
+
+body {
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Visible focus for keyboard users everywhere */
+:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+}
+
+.scrollbar-thin::-webkit-scrollbar { width: 8px; height: 8px; }
+.scrollbar-thin::-webkit-scrollbar-thumb { background: #c3cedd; border-radius: 8px; }
+
+/* Guided demo spotlight */
+.tour-spotlight {
+  position: fixed;
+  z-index: 140;
+  border-radius: 12px;
+  box-shadow: 0 0 0 4px var(--saffron), 0 0 0 9999px rgba(15, 42, 82, 0.45);
+  pointer-events: none;
+  transition: all 0.25s ease;
+}
+
+@media print {
+  aside, header, .no-print { display: none !important; }
+}
