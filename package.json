@@ -2,6 +2,7 @@
   "name": "samanvay",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "description": "Samanvay — AI-assisted single-window complaint monitoring dashboard for AICTE (SIH 2026 PS 26264). Prototype with synthetic data.",
   "scripts": {
     "dev": "next dev",

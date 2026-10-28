@@ -117,3 +117,7 @@ scripts/check-hero.ts            prints hero matches and seed statistics
 - The hero AICTE ID is the literal `1-4417XXXXXX` from the brief. All other IDs are 10 digits.
 - There is no real authentication and no backend. File attachments are stored as file names only.
 - The engine uses TF-IDF with a synonym map for L2. The planned backend would use sentence embeddings.
+
+## License
+
+[MIT](LICENSE) © 2026 Phantom-deluxe06
